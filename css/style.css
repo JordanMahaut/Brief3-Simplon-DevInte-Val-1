@@ -7,10 +7,12 @@ header nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
-header nav ul {
-    display: flex;
-    list-style: none;
+.blog{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+nav {
+    border: solid 1px #999;
 }
