@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+
 a, button, h3, h2, h4
 {
     font-family: 'Montserrat', sans-serif;
@@ -8,13 +9,11 @@ a, button, h3, h2, h4
 }
 
 h1 
-{
+{color: #d05270; 
     font-family: 'Abril Fatface', cursive;
     font-weight: 700;
     letter-spacing: 1px;
-}
-h1{color: #d05270;}    
-
+}    
 
 header{
     width: 1100px;
@@ -47,8 +46,16 @@ nav {
     width: 1100px;
 }
     .intro a{
-     border: solid 1px#999
-}
+     border: solid 1px#999;
+    width: 1100px;
+     margin: 0 auto;
+     gap: 20px;
+ }
+ 
+ .intro a{
+     border: solid 1px #999;
+ }
+
 .box {
    display: flex;
    flex-direction: row;
