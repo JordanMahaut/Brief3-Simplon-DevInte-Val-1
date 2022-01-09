@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/normalize.css">
-        <link rel="stylesheet" href="../Contact/contact.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <title>Document</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../Contact/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Contact</title>
+</head>
+
 <body>
     <header>
         <nav>
@@ -23,10 +25,84 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <h1>Contact :</h1>
 
-        <img src="../assets/pexels-monoar-rahman-114907.jpg" alt="img" id="">
+    <section class="contact">
+
+        <div class="contact1">
+
+            <div>
+                <img src="../assets/pexels-monoar-rahman-114907.jpg" alt="img" height="644">
+            </div>
+
+            <div class="contact2">
+                <h1>Contact :</h1>
+
+                <form>
+                    <div>
+                        <input type="radio" name="genre" value="Femme">
+                        <label>Femme</label>
+                        <input type="radio" name="genre" value="Homme">
+                        <label>Homme</label>
+                        <input type="radio" name="genre" value="Autre">
+                        <label>Autre</label>
+                    </div>
+
+                    <div>
+                        <label for="Nom">Nom :</label>
+                        <input type="text" required>
+                        <label for="Prénom">Prénom :</label>
+                        <input type="text" required>
+                    </div>
+
+                    <div>
+                        <label>Adresse :</label>
+                        <input type="text" placeholder="Votre adresse postale" size="50" required>
+                    </div>
+
+                    <div>
+                        <label>Ville :</label>
+                        <input type="text" required>
+                        <label>Code postale :</label>
+                        <input type="text" placeholder="Exemple : 59600" pattern="[0-9]{5}"
+                        required>
+                    </div>
+
+                    <div>
+                        <label>Numéro de téléphone :</label>
+                        <input type="tel" pattern="[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}" placeholder="00.00.00.00.00">
+                    </div>
+
+                    <div>
+                        <label>Adresse mail :</label>
+                        <input type="email" pattern=".+@globex\.com" size="30" placeholder="exemple@exemple.com" required>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Envoyer le formulaire">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="contact3">
+            <div>
+                <h2>A propos de l'auteur :</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quia exercitationem itaque suscipit
+                    accusamus saepe officia, harum eligendi dignissimos eius quam deleniti fugiat explicabo nisi labore
+                    laboriosam reprehenderit tempora quas.
+                </p>
+                <ul>
+                    <li><a href="https://twitter.com/?lang=fr" id="twitter"><img src="../Ressources/twitter.png" alt="icone" class="icone">TWITTER</a></li>
+                    <li><a href="https://www.linkedin.com" id="linkedin"><img src="../Ressources/linkedin.png" alt="icone" class="icone">LINKEDIN</a></li>
+                    <li><a href="https://www.linkedin.com" id="medium"><img src="../Ressources/medium.png" alt="icone" class="icone">MEDIUM</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <img src="../Ressources/illustration.png" alt="article" id="img">
+            </div>
+        </div>
     </section>
 </body>
+
 </html>
