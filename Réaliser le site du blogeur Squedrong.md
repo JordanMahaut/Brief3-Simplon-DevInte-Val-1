@@ -21,3 +21,5 @@ Maîtrise et connaissance du **CSS**
 ****
 ## Accueil :  
 #### Contexte : 
+création d 'une nav avec un logo et partie introduction avec l'image et 3 boutons:liens pour les réseaux sociaux.
+Puis une section présentation des articles . 
